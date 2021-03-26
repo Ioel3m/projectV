@@ -1,0 +1,44 @@
+/*fonts*/
+@font-face {
+    font-family: Raleway;
+    src: url('../resources/fonts/Raleway.ttf');
+}
+
+@font-face {
+    font-family: Lato;
+    src: url('../resources/fonts/Lato-Regular.ttf');
+}
+
+h1, h2, h3, h4, h5, h6, .font-raleway  {
+    font-family: Raleway !important ;
+}
+
+p, button, .font-Lato{
+    font-family: Lato !important ;
+}
+
+
+
+
+
+body {
+    scroll-behavior: smooth;
+}
+
+.section-img > img {
+    filter: grayscale(100%);
+}
+
+.services_desc > img {
+    height: 20vh;
+}
+
+
+.text-primary {
+    color: #23C4CE !important;
+}
+
+.text-formatGray {
+    color: #4C5961 !important;
+}
+
