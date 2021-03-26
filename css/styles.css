@@ -42,3 +42,8 @@ body {
     color: #4C5961 !important;
 }
 
+.os-theme-dark>.os-scrollbar>.os-scrollbar-track>.os-scrollbar-handle {
+
+    background: rgba(71, 84, 93, 0.7);
+}
+
