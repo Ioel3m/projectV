@@ -33,6 +33,30 @@ body {
     height: 20vh;
 }
 
+navbar a {
+    display: inline-block;
+    position: relative;
+    color: #333;
+    text-decoration: none;
+}
+navbar a:before,
+a:after {
+    content: "";
+    display: block;
+    margin: auto;
+    height: 2px;
+    width: 0px;
+    background: #23C4CE;
+    transition: all .3s;
+
+}
+navbar a:hover:before,
+navbar a:hover:after {
+    width: 100%;
+    color: #23C4CE;
+
+}
+
 
 .text-primary {
     color: #23C4CE !important;
@@ -40,6 +64,10 @@ body {
 
 .text-formatGray {
     color: #4C5961 !important;
+}
+
+.text-formatGray2 {
+    color: #E2E2E2 !important;
 }
 
 .os-theme-dark>.os-scrollbar>.os-scrollbar-track>.os-scrollbar-handle {

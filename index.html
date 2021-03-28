@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="libs/overlayScroll/OverlayScrollbars.min.css" type="text/css">
 
 
-    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <link rel="stylesheet" href="css/styles.min.css" type="text/css">
 </head>
 <body id="main">
 <main data-simplebarrr>
@@ -18,7 +18,7 @@
     <div class="container-fluid p-0 m-0">
 
         <div class="row m-0 p-0 border h-25">
-            <ul class="col-3 my-2 list-unstyled  d-flex justify-content-center ">
+            <ul class="col-xl-3 my-2 list-unstyled  d-flex justify-content-center ">
                 <li class="d-inline-block px-3 m-auto">
                     <img src="./resources/img/Icon%20awesome-phone-alt.png">
                     <a class="text-formatGray" href="">(800) 234-5678</a>
@@ -30,9 +30,15 @@
             </ul>
 
 
-            <ul class="col-3 my-2 offset-6 list-unstyled d-flex justify-content-center font-Lato">
-                <li class="d-inline-block px-3"><a class="text-primary" href="">PLAN ADMIN LOGIN</a></li>
-                <li class="d-inline-block px-3"><a class="text-primary" href="">MEMBER LOGIN</a></li>
+            <ul class="col-xl-5 my-2 offset-xl-4 list-unstyled d-flex justify-content-center font-Lato">
+                <li class="d-inline-block px-3  m-auto"><a class="text-primary" href="">PLAN ADMIN LOGIN</a></li>
+                <li class="d-inline-block px-3  m-auto border-left"><a class="text-primary" href="">MEMBER LOGIN</a></li>
+                <li class="d-inline-block px-3  m-auto">
+                    <div class="d-flex align-items-center border-left">
+                        <input class="d-block form-control border-0 text-formatGray2 font-Lato" type="text" placeholder="SEACRH...">
+                        <img class="d-block " src="./resources/img/Icon%20awesome-search.png" alt="">
+                    </div>
+                </li>
             </ul>
 
         </div>
@@ -50,10 +56,14 @@
         <navbar>
             <div class="row">
                 <ul class="col-12 list-unstyled d-flex font-Lato">
-                    <li class=" d-inline-block px-3"><a class="text-formatGray" href="">WHO WE ARE</a></li>
-                    <li class=" d-inline-block px-3"><a class="text-formatGray" href="">WHO WE ARE</a></li>
-                    <li class=" d-inline-block px-3"><a class="text-formatGray" href="">MEMBERS</a></li>
-                    <li class=" d-inline-block px-3"><a class="text-formatGray" href="">CONTACT US</a></li>
+                    <li class=" d-inline-block px-3"><a class="text-formatGray text-decoration-none" href="">WHO WE
+                        ARE</a></li>
+                    <li class=" d-inline-block px-3"><a class="text-formatGray text-decoration-none" href="">WHO WE
+                        ARE</a></li>
+                    <li class=" d-inline-block px-3"><a class="text-formatGray text-decoration-none" href="">MEMBERS</a>
+                    </li>
+                    <li class=" d-inline-block px-3"><a class="text-formatGray text-decoration-none" href="">CONTACT
+                        US</a></li>
                 </ul>
             </div>
         </navbar>
@@ -68,7 +78,7 @@
         </div>
 
         <div class="row  p-0 m-0">
-            <div class="col-12 col-lg-4 offset-4">
+            <div class="col-12 col-lg-4 offset-lg-4">
                 <h5 class="text-center py-5">With some companies competing of your business, Why Choose us?</h5>
             </div>
         </div>
@@ -124,7 +134,7 @@
 
         <div class="row justify-content-around   p-0 m-0 mb-5">
 
-            <div class="services_desc col-lg-3 col-12">
+            <div class="services_desc col-xl-3 offset-xl-0 col-8 offset-2 col-md-6 offset-md-1 mb-5">
                 <img class="img-fluid col-12 mb-5" src="./resources/img/Mask%20Group%202.png" alt="">
 
                 <h6 class="mt-3 text-primary font-weight-bold">Form Companies</h6>
@@ -133,9 +143,10 @@
                     pricing
                     improvements, along with our all-inclusive administration free will significantly lower costs.
                 </p>
+                <button class="btn btn-primary border-0">Read More</button>
             </div>
 
-            <div class="services_desc col-lg-3 col-12">
+            <div class="services_desc col-xl-3 offset-xl-0 col-8 offset-2 col-md-6 offset-md-1 mb-5">
                 <img class="img-fluid col-12 mb-5" src="./resources/img/Mask%20Group%203.png" alt="">
 
                 <h6 class="mt-3 text-primary font-weight-bold">Form Members</h6>
@@ -144,19 +155,23 @@
                     on
                     significant savings to you.
                 </p>
+                <button class="btn btn-primary border-0">Read More</button>
+
             </div>
 
-            <div class="services_desc col-lg-3 col-12">
+            <div class="services_desc col-xl-3 offset-xl-0 col-8 offset-2 col-md-6 offset-md-1 mb-5">
                 <img class="img-fluid col-12 mb-5" src="./resources/img/Mask%20Group%204.png" alt="">
 
                 <h6 class="mt-3 text-primary font-weight-bold">Form Brokers and TPA's</h6>
-                <p>
+                <p class="my-2">
                     If you're looking for a PBM that shares your commitments to customer service and transparency, give
                     us a
                     call. We ccn design custom programs for your clients that mesh perfectly with their needs - no
                     matter
                     their size or parameters.
                 </p>
+                <button class="btn btn-primary border-0">Read More</button>
+
             </div>
 
         </div>
