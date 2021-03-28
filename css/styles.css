@@ -9,16 +9,13 @@
     src: url('../resources/fonts/Lato-Regular.ttf');
 }
 
-h1, h2, h3, h4, h5, h6, .font-raleway  {
-    font-family: Raleway !important ;
+h1, h2, h3, h4, h5, h6, .font-raleway {
+    font-family: Raleway !important;
 }
 
-p, button, .font-Lato{
-    font-family: Lato !important ;
+p, button, .font-Lato {
+    font-family: Lato !important;
 }
-
-
-
 
 
 body {
@@ -39,6 +36,7 @@ navbar a {
     color: #333;
     text-decoration: none;
 }
+
 navbar a:before,
 a:after {
     content: "";
@@ -50,6 +48,7 @@ a:after {
     transition: all .3s;
 
 }
+
 navbar a:hover:before,
 navbar a:hover:after {
     width: 100%;
@@ -70,8 +69,12 @@ navbar a:hover:after {
     color: #E2E2E2 !important;
 }
 
-.os-theme-dark>.os-scrollbar>.os-scrollbar-track>.os-scrollbar-handle {
+.os-theme-dark > .os-scrollbar > .os-scrollbar-track > .os-scrollbar-handle {
 
     background: rgba(71, 84, 93, 0.7);
 }
 
+.os-scrollbar-handle {
+    background-color: rgb(15, 115, 139);
+    height: 24%;
+}
