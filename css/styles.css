@@ -74,7 +74,7 @@ navbar a:hover:after {
     background: rgba(71, 84, 93, 0.7);
 }
 
-.os-scrollbar-handle {
-    background-color: rgb(15, 115, 139);
+.os-theme-dark>.os-scrollbar>.os-scrollbar-track>.os-scrollbar-handle {
+    background-color: rgb(30, 175, 188) !important;
     height: 24%;
 }
